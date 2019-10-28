@@ -10,13 +10,16 @@
 </head>
 <body>
     <section class="main">
-        <div class="user"></div>
-        <div class="comments-section">
-            <div class="comments-text">
-                <span>Comments</span>
-                <span class="divider"></span>
+        <div class="loader"><span class="fa fa-spinner fa-spin loader-icon"></span></div>
+        <div class="user-wrapper hide">
+            <div class="user"></div>
+            <div class="comments-section">
+                <div class="comments-text">
+                    <span>Comments</span>
+                    <span class="divider"></span>
+                </div>
+                <ul class="user-comments"></ul>
             </div>
-            <ul class="user-comments"></ul>
         </div>
     </section>
     <script src="dist/bundle.js"></script>
