@@ -1,0 +1,19 @@
+{
+  "name": "fetch-async-data",
+  "version": "1.0.0",
+  "description": "Fetching Async Data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shilpapatwary/fetch-async-data.git"
+  },
+  "author": "Shilpa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shilpapatwary/fetch-async-data/issues"
+  },
+  "homepage": "https://github.com/shilpapatwary/fetch-async-data#readme"
+}
