@@ -1,10 +1,16 @@
+import { getUserComments } from "./apis";
 export default class UserComments {
   constructor() {
     this.bindEvents();
   }
   bindEvents() {
       document.addEventListener('DOMContentLoaded', () => {
-        console.log("loading comments");
+        this.getUserComments();
       });
+  }
+  getUserComments() {
+    getUserComments().then(userData => {
+      console.log(userData);
+    });
   }
 }
